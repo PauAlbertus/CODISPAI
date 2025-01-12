@@ -1,0 +1,55 @@
+/* Estilo Normal Sencillo */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: italic;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    color: #2905f5;
+    
+}
+
+form {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 2 10px;
+    color: #555;
+}
+
+input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+
