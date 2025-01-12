@@ -1,0 +1,58 @@
+/* Fitxer CSS estudiants */
+/*Estil per al cos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9d7; 
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. Estil per als títols */
+h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* 3. Estil per als paràgrafs */
+p {
+    color: #555;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* 4. Estil per al formulari */
+form {
+    margin-bottom: 20px;
+}
+
+select {
+    font-size: 1em;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* 5. Estil per al div de resultats */
+#resultats {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* 6. Estil per als botons (si n'hi ha) */
+button {
+    background-color: #4CAF50; /* Verd suau */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
