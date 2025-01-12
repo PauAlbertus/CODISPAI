@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treball Final Pau i Gerard: Formulari ex1</title>
+    <link rel="stylesheet" href="Treballfinal.css   ">
+</head>
+<body>
+    <h2> Formulari Ex1 </h2>
+    <form id="formulari">
+        <label for="nom"> Nom i cognoms:</label> 
+        <input
+        type="text"
+        id="nom"
+        name="nom"
+        placeholder="Escriu el teu nom i cognoms"><br />
+        <p id="error-nom" class="error"></p>
+
+        <label for="edats">Rang d'edats:</label>
+        <select id="edats" name="rangedats"> 
+            <option value="">Selecciona una opció</option>
+            <option value="0-17">0-17</option>
+            <option value="18-25">18-25</option>
+            <option value="26-40">26-40</option>
+            <option value="41-55">41-55</option>
+            <option value="56-65">56-65</option>
+            <option value="+65">+65</option>
+        </select><br />
+        <p id="error-edats" class="error"></p>
+
+        <label for="codipostal">Codi postal:</label>
+        <input
+        type="text"
+        id="codipostal"
+        name="codipostal"
+        placeholder="01234"
+        maxlength="5"><br />
+        <p id="error-codipostal" class="error"></p>
+
+        <label for="correu">Correu electrònic:</label>
+        <input 
+        type="email"
+        id="correu"
+        name="correu"
+        placeholder="Escriu un correu electrònic"><br />
+        <p id="error-correu" class="error"></p>
+
+        <label for="contrasenya">Contrasenya:</label>
+        <input 
+        type="password"
+        id="contrasenya"
+        name="contrasenya"
+        placeholder="012345678aA"><br />
+        <input type="checkbox" id="mostrar-contra">Mostra la contrasenya
+        <p id="error-contra" class="error"></p>
+
+        <label for="confirmarContrasenya">Confirma la contrasenya:</label>
+        <input 
+        type="password"
+        id="confirmarContrasenya"
+        name="confirmarContrasenya"
+        placeholder="012345678aA"><br />
+        <input type="checkbox" id="mostrar-confirm"> Mostra la contrasenya
+        <p id="error-contraConfirm" class="error"></p>
+
+        <label>
+        <input type="checkbox" id="checkbox">Política de Privacitat</label><br />
+        <p id="error-checkbox" class="error"></p>
+
+        <button type="button" id="esborrar">Esborrar</button>
+        <button type="button" id="enviar">Enviar</button>
+        <p id="resultat" class="error"></p>
+    </form> 
+    <script src="Treballfinal.js"> </script>
+</body>
+</html>
+    
